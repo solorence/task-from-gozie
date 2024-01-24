@@ -12,7 +12,7 @@ body{
 		display: inline-block; font-size:9.7px; padding-bottom:7px;
 }
 
-img{
+#trophy{
 		width: 0.5em; margin-left:2px;
 }
 
@@ -130,6 +130,38 @@ span{background-color: rgb(25, 26, 71); padding:3px 25px;}
 .lgrs6 > :nth-child(5){font-size:8px;}
 
 .lgrs6 > :nth-child(6){ background-color: rgb(25, 26, 71); color:white; font-size:9px; display:inline-block; width:120px; text-align:center; padding:5px 20px; margin-top:8px;}
+
+.lgrs7{height:100px; background-color:rgb(231,236,255);}
+
+.lgrs71{display:flex; align-items:center; padding:10px 0 0 30px; height:20px;}
+
+.lgrs71 p{font-size:8px;}
+
+.lgrs71 > :nth-child(2){font-weight:bold; font-size:12px;}
+
+.lgrs71 > :nth-child(3){color:white; padding:3px 0;}
+
+span{background-color: rgb(25, 26, 71); padding:3px 25px;}
+
+.headerlink{display:flex; justify-content:space-between;}
+
+.lgrs71 p, .headerlink {flex-basis:33.3%; text-align:center;}
+
+
+.lgrs72{display:flex; align-items:center; padding:10px 0 0 30px; height:20px;}
+
+.lgrs72 p{font-size:8px;}
+
+.lgrs72 > :nth-child(2){font-weight:bold; font-size:12px;}
+
+.lgrs72 > :nth-child(3){color:white; padding:3px 0;}
+
+span{background-color: rgb(25, 26, 71); padding:3px 25px;}
+
+.headerlink{display:flex; justify-content:space-between;}
+
+.lgrs72 p, .headerlink {flex-basis:33.3%; text-align:center;}
+
 
 .right-group{background-color:teal;
     display:grid; grid-template-columns:repeat(3, 1fr); grid-template-rows:repeat(4, 1fr);
