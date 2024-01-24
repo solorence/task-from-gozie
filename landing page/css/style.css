@@ -131,36 +131,28 @@ span{background-color: rgb(25, 26, 71); padding:3px 25px;}
 
 .lgrs6 > :nth-child(6){ background-color: rgb(25, 26, 71); color:white; font-size:9px; display:inline-block; width:120px; text-align:center; padding:5px 20px; margin-top:8px;}
 
-.lgrs7{height:100px; background-color:rgb(231,236,255);}
+.lgrs7{height:100px; background-color:rgb(231,236,255); padding:0 60px}
 
-.lgrs71{display:flex; align-items:center; padding:10px 0 0 30px; height:20px;}
+.lgrs71{display:flex; align-items:center; height:20px; justify-content:space-between;}
 
 .lgrs71 p{font-size:8px;}
 
-.lgrs71 > :nth-child(2){font-weight:bold; font-size:12px;}
+.lgrs71 > :nth-child(2){font-weight:bold; font-size:12px; text-align:center;}
 
-.lgrs71 > :nth-child(3){color:white; padding:3px 0;}
+.lgrs71 > :nth-child(3){color:white; padding:3px 0; text-align:right}
 
-span{background-color: rgb(25, 26, 71); padding:3px 25px;}
+.lgrs71 span{background-color: rgb(25, 26, 71);}
 
-.headerlink{display:flex; justify-content:space-between;}
-
-.lgrs71 p, .headerlink {flex-basis:33.3%; text-align:center;}
+.lgrs71 p{flex-basis:33.3%;}
 
 
-.lgrs72{display:flex; align-items:center; padding:10px 0 0 30px; height:20px;}
+.lgrs72{display:flex; align-items:center;}
 
 .lgrs72 p{font-size:8px;}
 
-.lgrs72 > :nth-child(2){font-weight:bold; font-size:12px;}
+.lgrs72 > :nth-child(1){display:flex; justify-content:space-between; padding-right:40px}
 
-.lgrs72 > :nth-child(3){color:white; padding:3px 0;}
-
-span{background-color: rgb(25, 26, 71); padding:3px 25px;}
-
-.headerlink{display:flex; justify-content:space-between;}
-
-.lgrs72 p, .headerlink {flex-basis:33.3%; text-align:center;}
+.lgrs72 > :nth-child(1), .lgrs72 > p{flex-basis:33.3%; text-align:center;}
 
 
 .right-group{background-color:teal;
