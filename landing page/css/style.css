@@ -32,8 +32,8 @@ body{
 
 .lg-right{background-color:white;}
 
-.lg-right-sub1{background-image:url(../img/bgpic2.png); background-size:635px 420px; 
-background-repeat:no-repeat; background-position:right bottom; width:100%; height:400px; }
+.lg-right-sub1{background-image:url(../img/bgpic2.png); background-size:670px 520px; 
+background-repeat:no-repeat; background-position:right bottom; width:100%; height:500px; }
 
 .lgrs11{display:flex; align-items:center; padding:10px 0 0 30px; height:20px;}
 
@@ -49,19 +49,21 @@ background-repeat:no-repeat; background-position:right bottom; width:100%; heigh
 
 .lgrs11 p, .headerlink {flex-basis:33.3%; text-align:center;}
 
-.lgrs12{display:grid; grid-template-columns: 1fr 1fr; grid-template-rows:1fr; height:380px; }
+.lgrs12{display:grid; grid-template-columns: 1fr 1fr; grid-template-rows:1fr; height:480px;}
 
 .lgrs12l{grid-row:1; place-self:center right; }
 
 .lgrs12l :nth-child(1){font-size:25px; font-weight:bold; margin-bottom:10px;} 
 
-.lgrs12l :nth-child(2){font-size:9px; padding-bottom:10px; line-height:1.5} 
+.lgrs12l :nth-child(2){font-size:9px; padding-bottom:10px; line-height:1.5;
+  margin-bottom:20px
+} 
 
 .lgrs12l :nth-child(3) :nth-child(1) {background-color:  rgb(25, 26, 71); color:white; margin-right:10px} 
 
 .lgrs12l :nth-child(3) p{font-size:8px; display:inline-block; width:100px; text-align:center; border:1px solid  rgb(25, 26, 71); padding:3px 15px;} 
 
-.lgrs12r{background-image:url(../img/manatscreen.jpg); background-size:70% 80%; background-repeat:no-repeat;background-position:100% 90%;}
+.lgrs12r{background-image:url(../img/manatscreen.jpg); background-size:80% 75%; background-repeat:no-repeat;background-position:100% 110px;}
 
 .lgrs2{display:grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr; height:400px;}
 
@@ -148,7 +150,7 @@ background-repeat:no-repeat; background-position:right bottom; width:100%; heigh
 .lgrs71 p{flex-basis:33.3%;}
 
 
-.lgrs72{display:flex; align-items:center; justify-content: space-between; padding:15px 0;}
+.lgrs72{display:flex; align-items:center; justify-content: space-between; padding:20px 0 30px 0;}
 
 .lgrs72 p{font-size:8px;}
 
