@@ -159,7 +159,7 @@ background-repeat:no-repeat; background-position:right bottom; width:100%; heigh
 .lgrs72 img{width:9px}
 
 
-.right-group{display:grid; grid-template-columns:repeat(3, 1fr); grid-template-rows:repeat(4, 1fr); column-gap:20px;
+.right-group{display:grid; grid-template-columns:repeat(3, 1fr); grid-template-rows:repeat(4, 1fr); column-gap:20px; row-gap:160px;
 }
 
 .itemdisplay{background-color:white; padding-left:45px; height:450px; display:grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr;}
