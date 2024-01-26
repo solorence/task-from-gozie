@@ -26,7 +26,7 @@ body{
 
 .lg-left{background-color:white; align-self:start; font-family:"arial"; font-weight:bold; padding:10px 23px 10px 23px; text-align:center;}
 
-.lg-left p:last-child{font-size:8px; text-align:justify; font-weight:normal; line-height:1.5;}
+.lg-left p:last-child{font-size:8px; text-align:justify; font-weight:normal; line-height:1.5; color:gray}
 
 .lg-left a{font-weight:bold;}
 
@@ -43,7 +43,7 @@ background-repeat:no-repeat; background-position:right bottom; width:100%; heigh
 
 .lgrs11 > :nth-child(3){color:white; padding:3px 0;}
 
-.lgrs11 :last-child span{background-color: rgb(25, 26, 71); padding:3px 25px;}
+.lgrs11 :last-child span{background-color: rgb(25, 26, 71); padding:3px 25px; border-radius:1px}
 
 .headerlink{display:flex; justify-content:space-between;}
 
@@ -56,12 +56,12 @@ background-repeat:no-repeat; background-position:right bottom; width:100%; heigh
 .lgrs12l :nth-child(1){font-size:25px; font-weight:bold; margin-bottom:10px;} 
 
 .lgrs12l :nth-child(2){font-size:9px; padding-bottom:10px; line-height:1.5;
-  margin-bottom:20px
+  margin-bottom:20px; color:gray;
 } 
 
-.lgrs12l :nth-child(3) :nth-child(1) {background-color:  rgb(25, 26, 71); color:white; margin-right:10px} 
+.lgrs12l :nth-child(3) :nth-child(1) {background-color:  rgb(25, 26, 71); color:white; margin-right:10px; border-radius:1px} 
 
-.lgrs12l :nth-child(3) p{font-size:8px; display:inline-block; width:100px; text-align:center; border:1px solid  rgb(25, 26, 71); padding:3px 15px;} 
+.lgrs12l :nth-child(3) p{font-size:8px; display:inline-block; width:100px; text-align:center; border:1px solid  rgb(25, 26, 71); padding:3px 15px; border-radius:1px} 
 
 .lgrs12r{background-image:url(../img/manatscreen.jpg); background-size:80% 75%; background-repeat:no-repeat;background-position:100% 110px;}
 
@@ -71,7 +71,7 @@ background-repeat:no-repeat; background-position:right bottom; width:100%; heigh
 
 .lgrs2l1{font-size:18px; font-weight:bold; margin-bottom:10px;}
 
-.lgrs2l2{font-size:8px; line-height:1.5; margin-bottom:40px;}
+.lgrs2l2{font-size:8px; line-height:1.5; margin-bottom:40px; color:gray}
 
 .lgrs2l3{font-size:8px; display:flex; line-height:1.5;}
 
@@ -80,6 +80,10 @@ background-repeat:no-repeat; background-position:right bottom; width:100%; heigh
 .lgrs2l3l :nth-child(2){font-weight:bold; padding-bottom:5px}
 
 .lgrs2l3r :nth-child(2){font-weight:bold; padding-bottom:5px;}
+
+.lgrs2l3l :nth-child(3){color:gray}
+
+.lgrs2l3r :nth-child(3){color:gray;}
 
 .lgrs2l3r{padding-left:18px}
 
@@ -93,7 +97,7 @@ background-repeat:no-repeat; background-position:right bottom; width:100%; heigh
 
 .lgrs3r1{font-size:18px; font-weight:bold; margin-bottom:10px;} 
 
-.lgrs3r2{font-size:8px; line-height:1.5;}
+.lgrs3r2{font-size:8px; line-height:1.5; color:gray}
 
 .lgrs4{display:grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr; height:300px;}
 
@@ -103,7 +107,7 @@ background-repeat:no-repeat; background-position:right bottom; width:100%; heigh
 
 .lgrs4r1{font-size:18px; font-weight:bold; margin-bottom:10px;} 
 
-.lgrs4r2{font-size:8px; line-height:1.5;}
+.lgrs4r2{font-size:8px; line-height:1.5; color:gray}
 
 .lgrs5{display:grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr; height:300px;}
 
@@ -113,9 +117,9 @@ background-repeat:no-repeat; background-position:right bottom; width:100%; heigh
 
 .lgrs5r1{font-size:18px; font-weight:bold; margin-bottom:10px;} 
 
-.lgrs5r2{font-size:8px; line-height:1.5;}
+.lgrs5r2{font-size:8px; line-height:1.5; color:gray}
 
-.lgrs5r :nth-last-child(1){background-color: rgb(25, 26, 71); color:white; font-size:8px; display:inline-block; width:100px; text-align:center; padding:5px 10px; margin-top:30px;} 
+.lgrs5r :nth-last-child(1){background-color: rgb(25, 26, 71); color:white; font-size:8px; display:inline-block; width:100px; text-align:center; padding:5px 10px; margin-top:30px; border-radius:1px;} 
 
 .curvebox{height:70px; background-color:rgb(243,246,255); border-top:2px solid white;}
 
@@ -125,15 +129,15 @@ background-repeat:no-repeat; background-position:right bottom; width:100%; heigh
 
 .lgrs6 > :nth-child(1){font-size:18px; font-weight:bold; margin-bottom:10px;}
 
-.lgrs6 > :nth-child(2){font-size:8px; line-height:1.5; margin-bottom:20px}
+.lgrs6 > :nth-child(2){font-size:8px; line-height:1.5; margin-bottom:20px; color:gray}
 
 .lgrs6 > :nth-child(3){font-size:30px; font-weight:bold; margin-bottom:5px;}
 
 .lgrs6 > :nth-child(4){font-size:9px; margin-bottom:40px;}
 
-.lgrs6 > :nth-child(5){font-size:8px;}
+.lgrs6 > :nth-child(5){font-size:8px; color:gray}
 
-.lgrs6 > :nth-child(6){ background-color: rgb(25, 26, 71); color:white; font-size:9px; display:inline-block; width:120px; text-align:center; padding:5px 20px; margin-top:8px;}
+.lgrs6 > :nth-child(6){ background-color: rgb(25, 26, 71); color:white; font-size:9px; display:inline-block; width:120px; text-align:center; padding:5px 20px; margin-top:8px; border-radius:1px}
 
 .lgrs7{background-color:rgb(231,236,255); padding:0 60px}
 
@@ -141,11 +145,13 @@ background-repeat:no-repeat; background-position:right bottom; width:100%; heigh
 
 .lgrs71 p{font-size:8px;}
 
+.lgrs71 > :nth-child(1){color:gray}
+
 .lgrs71 > :nth-child(2){font-weight:bold; font-size:12px; text-align:center;}
 
 .lgrs71 > :nth-child(3){color:white; padding:3px 0; display:flex; justify-content:flex-end;}
 
-.lgrs71 span{background-color: rgb(25, 26, 71); padding:3px 13px;}
+.lgrs71 span{background-color: rgb(25, 26, 71); padding:3px 13px; border-radius:1px}
 
 .lgrs71 p{flex-basis:33.3%;}
 
@@ -154,7 +160,7 @@ background-repeat:no-repeat; background-position:right bottom; width:100%; heigh
 
 .lgrs72 p{font-size:8px;}
 
-.lgrs72 > :nth-child(1){display:flex; justify-content:space-between; padding-right:40px; flex-basis:33.3%; text-align:center;}
+.lgrs72 > :nth-child(1){display:flex; justify-content:space-between; padding-right:40px; flex-basis:33.3%; text-align:center; color:gray}
 
 .lgrs72 > :nth-child(2){display:flex; justify-content:space-between; flex-basis:33.3%; text-align:center; padding-left:35px}
 
@@ -175,7 +181,7 @@ background-repeat:no-repeat; background-position:right bottom; width:100%; heigh
 
 .left1, .right1{font-size:18px; font-weight:bold; margin-bottom:10px;}
 
-.left2, .right2{font-size:8px; line-height:1.5; margin-bottom:35px;}
+.left2, .right2{font-size:8px; line-height:1.5; margin-bottom:35px; color:gray}
 
 .left3, .right3{font-size:8px; display:flex; line-height:1.5;}
 
@@ -184,6 +190,11 @@ background-repeat:no-repeat; background-position:right bottom; width:100%; heigh
 .left3l :nth-child(2), .right3l :nth-child(2){font-weight:bold; padding-bottom:5px}
 
 .left3r :nth-child(2), .right3r :nth-child(2){font-weight:bold; padding-bottom:5px;}
+
+.left3l :nth-child(3), .right3l :nth-child(3){color:gray} 
+
+.left3r :nth-child(3), .right3r :nth-child(3){color:gray}
+
 
 .left3r{padding-left:18px}
 
