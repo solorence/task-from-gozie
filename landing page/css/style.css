@@ -202,7 +202,7 @@ background-repeat:no-repeat; background-position:right bottom; width:100%; heigh
 
 
 
-.item61{display:flex; align-items:center; height:20px; justify-content: space-between; background-color:white; padding:20px 90px;}
+.item61{display:flex; align-items:center; height:20px; justify-content: space-between; background-color:white; padding:20px 100px; margin-bottom:15px}
 
 .item61 .links{color:gray; font-size:8px;}
 
@@ -211,3 +211,18 @@ background-repeat:no-repeat; background-position:right bottom; width:100%; heigh
 .item61 > :nth-child(2) :last-child {background-color: rgb(25, 26, 71); padding:3px 10px; color:white; border-radius:1px}
 
 .item61 > :nth-child(2){display:flex; justify-content:space-between; gap:25px; align-items:center; font-size:8px;}
+
+
+.item62{display:flex; align-items:center; height:20px; justify-content: space-between; background-color:white; padding:20px 100px;}
+
+.item62 .links{color:gray; font-size:8px;}
+
+.item62 > :nth-child(1){font-weight:900; font-size:16px; color:blue; }
+
+.item62 > :nth-child(2){display:flex; justify-content:space-between; gap:25px; align-items:center; font-size:8px;}
+
+.item62 > :nth-child(3){display:flex; gap:15px}
+
+.item62 > :nth-child(3) :first-child {background-color: rgb(25, 26, 71); padding:3px 10px; color:white; border-radius:1px; font-size:8px;}
+
+.item62 > :nth-child(3) :last-child {background-color: rgb(255, 209, 103) ; padding:3px 20px; color:rgb(25,26,71); border-radius:1px; font-size:8px; font-weight:bold;}
