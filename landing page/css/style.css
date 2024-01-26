@@ -197,3 +197,17 @@ background-repeat:no-repeat; background-position:right bottom; width:100%; heigh
 .itemdisplay2{padding-left:0; grid-template-columns:40% 70%;}
 
 .itemdisplay3{height:350px}
+
+.item6{grid-column:1; grid-row:3}
+
+
+
+.item61{display:flex; align-items:center; height:20px; justify-content: space-between; background-color:white; padding:20px 90px;}
+
+.item61 .links{color:gray; font-size:8px;}
+
+.item61 > :nth-child(1){font-weight:900; font-size:16px; color:blue; }
+
+.item61 > :nth-child(2) :last-child {background-color: rgb(25, 26, 71); padding:3px 10px; color:white; border-radius:1px}
+
+.item61 > :nth-child(2){display:flex; justify-content:space-between; gap:25px; align-items:center; font-size:8px;}
